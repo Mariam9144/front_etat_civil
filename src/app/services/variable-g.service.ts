@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class VariableGService {
   api: string="http://localhost:8080"
-  apiDist: string="https://back-etat-civil.onrender.com"
+  apiDist: string="https://gestion-etat-civil.onrender.com"
 
   constructor() { }
   getApi(){
